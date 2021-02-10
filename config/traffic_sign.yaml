@@ -1,0 +1,14 @@
+yolo_model:
+
+  config_file:
+    name: traffic_sign.cfg
+  weight_file:
+    name: traffic_sign.weights
+  threshold:
+    value: 0.7
+  detection_classes:
+    names:
+      - traffic light
+      - dynamic
+      - static
+      - parking

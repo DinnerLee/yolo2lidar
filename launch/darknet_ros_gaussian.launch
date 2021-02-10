@@ -1,0 +1,7 @@
+<launch>
+   <node pkg="yolo2lidar" name="yolo2lidar" type="yolo2lidar" output="screen" />
+   <param name="datacfg" type="string" value="/home/a/catkin_ws/src/yolo2lidar/darknet/data/obj.data" />
+   <param name="cfg" type="string" value="/home/a/catkin_ws/src/yolo2lidar/darknet/cfg/Gaussian_yolov3_BDD.cfg" />
+   <param name="weights" type="string" value="/home/a/catkin_ws/src/yolo2lidar/darknet/backup/Gaussian_yolov3_BDD_50000.weights" />
+   <param name="filename" type="string" value="/home/a/catkin_ws/src/yolo2lidar/darknet/7.png" />
+</launch>
